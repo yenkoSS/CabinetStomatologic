@@ -1,0 +1,252 @@
+/* ----- TYPOGRAPHY ----- */
+
+/* >>> H1 <<< */
+
+h1 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  animation: showH1 1000ms;
+  letter-spacing: -1px;
+  line-height: 5rem;
+}
+
+.h1-span1 {
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.h1-span2 {
+  font-size: 2rem;
+  display: block;
+  line-height: 3rem;
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  .h1-span1 {
+    font-size: 7rem;
+  }
+
+  .h1-span2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+/* >>> H1 END <<< */
+
+/* >>> H2 <<< */
+
+h2 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+}
+
+h2 span {
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+  h2 span {
+    font-size: 18px;
+  }
+}
+
+.h2-whyus {
+  font-size: 1.8rem;
+}
+
+.h2-braces {
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 992px) {
+  .h2-braces {
+    font-size: 6rem;
+  }
+}
+
+/* >>> H2 END <<< */
+
+/* >>> H3 <<< */
+
+h3 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+.h3-card-services {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* >>> H3 END<<< */
+
+/* >>> H3 <<< */
+
+h4 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.h3-card-services {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* >>> H3 END<<< */
+
+/* >>> P <<< */
+
+p {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.p-13 {
+  font-size: 14px;
+  line-height: normal;
+}
+
+blockquote {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* >>> P END <<< */
+
+/* ----- TYPOGRAPHY END----- */
+
+@keyframes showTextHero {
+  from {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes showHeroPrice {
+  from {
+    transform: translateY(-400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .text-title-section {
+    font-size: 20px;
+  }
+}
+
+@keyframes showTextAnswer {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes showTextHeroWelcome {
+  from {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes showH1 {
+  from {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.text-contact-quickbar {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.text-hero {
+  font-size: 18px;
+}
+
+.text-counter {
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-counter span {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.text-review {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-user {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: var(--font-heading-primary);
+}
+
+.text-question-faq {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-answer-faq {
+  display: none;
+  margin-top: 10px;
+}
+
+.text-contact {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.text-websiteshop {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
